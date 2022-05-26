@@ -19,6 +19,14 @@ process = subprocess.Popen(pipInstall.split(), stdout=subprocess.PIPE)
 output, error = process.communicate()
 from smart_open import smart_open
 
+pipInstall = "pip install openpyxl==3.0.10"
+process = subprocess.Popen(pipInstall.split(), stdout=subprocess.PIPE)
+output, error = process.communicate()
+
+pipInstall = "pip install xlrd"
+process = subprocess.Popen(pipInstall.split(), stdout=subprocess.PIPE)
+output, error = process.communicate()
+
 from urllib.parse import unquote
 def parse_url_seps(string: str) -> str:
     try:

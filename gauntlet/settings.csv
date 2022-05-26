@@ -1,0 +1,16 @@
+user,product,product / fraud_ops
+objective,cost,cost / revenue / lifetime 
+Avg Loan Size (Non-Fraud),5200,[dollar amount]
+Avg Loan Size (Fraud),7155,[dollar amount]
+Avg Contribution Profit Percent,0.1,[percentage]
+Avg Conversion Loss for False Positive,0.22,[percentage]
+batch-window,90,30 / 60 / 90
+FP Throttle,0.7,"classifier_proba[:,1] > 0.7"
+demo-mode,TRUE,TRUE / FALSE
+Lift,FALSE,TRUE / FALSE
+Clusters,2D,2D / 3D
+EDA,FALSE,TRUE / FALSE
+output_1,chronological,chronological / timeslice / visual
+features supplement,"ne_score', 'np_score', 'ea_score'","['p_tcr_ft_difflib_first_name_match', 'ne_score', 'np_score', 'tmx_true_ip_score', 'tmx_proxy_ip_score',"
+,,"rr_date_first_seen_ft_days_since', 'tmx_account_email_first_seen_ft_days_since',"
+,,"tmx_ss_ft_true_ip_address_distance', 'rr_popularity', 'ea_score']"
