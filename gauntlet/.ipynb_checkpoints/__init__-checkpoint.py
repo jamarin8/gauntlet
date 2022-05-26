@@ -1,5 +1,5 @@
 import gauntlet
-import dataintake
+import gauntlet.dataintake
 # from gauntlet import create_metrics
 
 # import subprocess
