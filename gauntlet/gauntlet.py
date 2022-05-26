@@ -1,4 +1,4 @@
-from params import params
+from gauntlet.params import params
 import pickle
 import subprocess
 from collections import defaultdict, Counter
