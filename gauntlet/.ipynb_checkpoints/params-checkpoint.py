@@ -18,6 +18,7 @@ output, error = process.communicate()
 import pandas as pd, os
 
 path = os.path.abspath('./')
+print (path)
 
 import warnings
 warnings.filterwarnings('ignore')
