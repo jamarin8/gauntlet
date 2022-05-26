@@ -170,7 +170,7 @@ if __name__ == "__main__":
 
     with open('combo_metrics_df.pkl', 'wb') as f:
         pickle.dump(combo_metrics_df, f)
-    print ('completionn of combo_metrics_df...')
+    print ('completion of combo_metrics_df...')
 
 
 # df2_stand_norm = create_repeat(df2, features, ca_created_at, str(int(params.batch_window)))

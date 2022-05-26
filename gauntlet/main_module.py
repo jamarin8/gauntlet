@@ -23,7 +23,7 @@ from gauntlet import create_metrics
 # if os.path.exists('./gauntlet.py')
 
 from dataintake import fraud_column, fm_5
-from dataintake import df2_stand_norm, any_fraud_mean
+from dataintake import any_fraud_mean
 
 print ('\t>> time segments:')
 print ('\t\t', [dat.strftime('%Y-%m-%d') for dat in df2_stand_norm[str(params.batch_window)].keys()], '\n')
