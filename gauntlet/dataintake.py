@@ -2,7 +2,7 @@ from gauntlet.categorical_features import categorical_vars, all_date_vars, numer
 import subprocess, time, string, pickle
 from collections import defaultdict, Counter
 
-from time_bin_normalize import create_repeat
+from gauntlet.time_bin_normalize import create_repeat
 from params import params
 
 print ("ENGAGING DATA INTAKE & PROCESSING MODULE...")
