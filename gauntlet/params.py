@@ -42,7 +42,7 @@ def param_prep(key_intake: str) -> str:
         compact_str = compact_str.replace('(','').replace(')','').replace('-', '_')
         return compact_str
 
-intake_params = pd.read_excel(path + '/settings.xlsx', sheet_name = 'Inputs', header=None, index_col=0, engine='openpyxl').to_dict()[1]
+intake_params = pd.read_excel(path + '/settings.zip', sheet_name = 'Inputs', header=None, index_col=0, engine='openpyxl').to_dict()[1]
 
 slot_dict = {k:v for k,v in zip(list(map(param_prep, intake_params)), intake_params.values())}
 
