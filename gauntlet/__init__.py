@@ -1,13 +1,14 @@
-# import gauntlet
+import gauntlet
+import dataintake
 # from gauntlet import create_metrics
 
-import subprocess
-pipInstall = "pip install sklearn" 
-process = subprocess.Popen(pipInstall.split(), stdout=subprocess.PIPE)
-output, error = process.communicate()
+# import subprocess
+# pipInstall = "pip install sklearn" 
+# process = subprocess.Popen(pipInstall.split(), stdout=subprocess.PIPE)
+# output, error = process.communicate()
 
-from sklearn.decomposition import PCA
-import gauntlet.gauntlet
+# from sklearn.decomposition import PCA
+# import gauntlet.gauntlet
 # import gauntlet.params
 # import gauntlet.categorical_features
 # import gauntlet.dataintake
