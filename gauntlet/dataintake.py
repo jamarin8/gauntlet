@@ -3,7 +3,7 @@ import subprocess, time, string, pickle
 from collections import defaultdict, Counter
 
 from gauntlet.time_bin_normalize import create_repeat
-from params import params
+from gauntlet.params import params
 
 print ("ENGAGING DATA INTAKE & PROCESSING MODULE...")
 tic = time.perf_counter()
