@@ -1,5 +1,7 @@
 import gauntlet
 import gauntlet.dataintake
+import gauntlet.categorical_features
+
 # from gauntlet import create_metrics
 
 # import subprocess
