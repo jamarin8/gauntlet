@@ -15,6 +15,10 @@ pipInstall = "/opt/conda/bin/python -m pip install --upgrade pip"
 process = subprocess.Popen(pipInstall.split(), stdout=subprocess.PIPE)
 output, error = process.communicate()
 
+pipInstall = "!pip install openpyxl==3.0.10"
+process = subprocess.Popen(pipInstall.split(), stdout=subprocess.PIPE)
+output, error = process.communicate()
+
 import pandas as pd, os
 
 path = os.path.abspath('./')
