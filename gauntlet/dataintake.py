@@ -1,4 +1,4 @@
-from categorical_features import categorical_vars, all_date_vars, numeric_vars
+from gauntlet.categorical_features import categorical_vars, all_date_vars, numeric_vars
 import subprocess, time, string, pickle
 from collections import defaultdict, Counter
 
